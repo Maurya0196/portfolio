@@ -309,13 +309,19 @@ if (workSampleUL) {
 
 
   const observer = new IntersectionObserver(
-    (entries) => {
-      entries.forEach((entry) => {
-        entry.target.classList.toggle("show", entry.isIntersecting);
-      });
-    },
-    { threshold: 0.1 }
-  );
+  (entries) => {
+    entries.forEach((entry) => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add("show");
+        observer.unobserve(entry.target);
+      }
+    });
+  },
+  {
+    threshold: 0.05,
+    rootMargin: "0px 0px -10% 0px",
+  }
+);
 
   document.querySelectorAll(".about-content").forEach((el) => {
     observer.observe(el);
