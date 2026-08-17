@@ -50,24 +50,24 @@ const workSample = [
     projectLink: "https://pettoonies.com/",
     category: "shopify",
   },
-  // {
-  //   projectTitle: "Handicrafts Home",
-  //   projectImg: "./assets/images/hh.jpg",
-  //   projectLink: "https://handicraftshome.com/",
-  //   category: "shopify",
-  // },
-  // {
-  //   projectTitle: "Mystery Guides",
-  //   projectImg: "./assets/images/mystery.jpg",
-  //   projectLink: "https://www.mysteryguides.co.uk/",
-  //   category: "shopify",
-  // },
-  // {
-  //   projectTitle: "Beauty Tailor",
-  //   projectImg: "./assets/images/beautytailor.jpg",
-  //   projectLink: "https://beautytailornyc.com/",
-  //   category: "shopify",
-  // },
+  {
+    projectTitle: "Handicrafts Home",
+    projectImg: "./assets/images/hh.jpg",
+    projectLink: "https://handicraftshome.com/",
+    category: "shopify",
+  },
+  {
+    projectTitle: "Mystery Guides",
+    projectImg: "./assets/images/mystery.jpg",
+    projectLink: "https://www.mysteryguides.co.uk/",
+    category: "shopify",
+  },
+  {
+    projectTitle: "Beauty Tailor",
+    projectImg: "./assets/images/beautytailor.jpg",
+    projectLink: "https://beautytailornyc.com/",
+    category: "shopify",
+  },
   {
     projectTitle: "Vaping The Way",
     projectImg: "./assets/images/vaping.jpg",
